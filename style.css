@@ -1,0 +1,29 @@
+.grid{
+  width: 405px;
+  height: 405px;
+  border: 2px solid black;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  margin: auto;
+}
+.cell{
+  height: 100px;
+  width: 100px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid black;
+  position: absolute;
+  background-color: rgb(111, 118, 121);
+  font-size: 80px;
+  text-align: center;
+  padding-top: 5px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.empty{
+  border: none;
+  background: transparent;
+  cursor: text;
+}
